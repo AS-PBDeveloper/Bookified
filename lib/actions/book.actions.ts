@@ -112,9 +112,9 @@ export const saveBookSegments = async (
       "Deleted book segments and book due to failure to save segments.",
     );
 
-    // return {
-    //   success: false,
-    //   error: e,
-    // };
+    return {
+      success: false,
+      error: e,
+    };
   }
 };
